@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#charts-section {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.chart-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#input-section {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Spacing between input elements */
+    margin-top: 50px;
+}
+
+#tracker {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.nutrient-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.nutrient-percentage {
+    font-weight: bold;
+    color: #007bff; /* Blue color for text percentage */
+}
+
+.nutrient-name {
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nutrient-intake {
+    font-weight: bold;
+    color: #555;
+}
+
+.progress-bar {
+    height: 4px;
+    background: #f3f3f3;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    background:blue;
+    width: 0;
+    transition: width 0.4s ease;
+}
+
+#food-item,
+#quantity {
+    padding: 10px;
+    margin: 0;
+    width: 80%;
+}
+
+.suggestions li {
+    list-style: none;
+    padding: 5px;
+    cursor: default; /* Prevent pointer display */
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.suggestions li:hover {
+    background-color: #efefef;
+}
+
+#calculate-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#completion-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+#reset-section {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}

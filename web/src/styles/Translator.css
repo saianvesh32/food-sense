@@ -1,0 +1,79 @@
+/* Google Translate element styles */
+.goog-te-gadget {
+    font-family: inherit !important;
+    margin-bottom: 0 !important;
+  }
+  
+  /* Remove Google Translate branding */
+  .goog-te-gadget .goog-te-combo {
+    margin: 0 !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    border: 1px solid #e2e8f0 !important;
+    width: 100% !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    background-color: white !important;
+    color: #1a202c !important;
+    cursor: pointer !important;
+    outline: none !important;
+    transition: border-color 0.2s ease !important;
+  }
+  
+  .goog-te-gadget .goog-te-combo:hover {
+    border-color: #cbd5e0 !important;
+  }
+  
+  .goog-te-gadget .goog-te-combo:focus {
+    border-color: #3182ce !important;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1) !important;
+  }
+  
+  /* Hide the "Powered by" text */
+  .goog-te-gadget-simple {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  
+  .goog-te-gadget-simple > span {
+    display: none !important;
+  }
+  
+  /* Style the top banner that appears when translation is active */
+  .goog-te-banner-frame {
+    display: none !important;
+  }
+  
+  body {
+    top: 0 !important;
+  }
+  
+  /* Styles for the translated text */
+  .goog-text-highlight {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  /* Hide original text hint on hover */
+  .goog-tooltip {
+    display: none !important;
+  }
+  
+  .goog-tooltip:hover {
+    display: none !important;
+  }
+  
+  .goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* Style skiptranslate elements */
+  .skiptranslate {
+    display: none !important;
+  }
+  
+  .skiptranslate.goog-te-gadget {
+    display: block !important;
+  }

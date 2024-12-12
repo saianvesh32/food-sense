@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ingredient Analysis</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #suggestions {
+            border: 1px solid #ddd;
+            max-height: 150px;
+            overflow-y: auto;
+            position: absolute;
+            background: white;
+            z-index: 999;
+            width: 200px;
+        }
+        #suggestions div {
+            padding: 10px;
+            cursor: pointer;
+        }
+        #suggestions div:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Food Ingredient Analysis System</h1>
+    <form id="productForm">
+        <label for="product_name">Enter Product Name:</label>
+        <input type="text" id="product_name" name="product_name" autocomplete="off">
+        <div id="suggestions"></div>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <div id="output" style="margin-top: 20px;">
+        <!-- Results will be displayed here -->
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Handle suggestions
+            $('#product_name').on('input', function () {
+                const query = $(this).val();
+                if (query.length > 1) {
+                    $.get('/suggest', { query: query }, function (data) {
+                        let suggestionsHTML = '';
+                        data.forEach(item => {
+                            suggestionsHTML += `<div>${item}</div>`;
+                        });
+                        $('#suggestions').html(suggestionsHTML).show();
+                    });
+                } else {
+                    $('#suggestions').hide();
+                }
+            });
+
+            // Fill the input with selected suggestion
+            $('#suggestions').on('click', 'div', function () {
+                $('#product_name').val($(this).text());
+                $('#suggestions').hide();
+            });
+
+            // Handle form submission
+            $('#productForm').on('submit', function (e) {
+                e.preventDefault();
+                const productName = $('#product_name').val();
+                $.ajax({
+                    url: '/predict',
+                    method: 'POST',
+                    data: { product_name: productName },
+                    success: function (response) {
+                        if (response.status === 'found') {
+                            $('#output').html(`
+                                <h2>Results for: ${response.product_name}</h2>
+                                <p><strong>Health Impact:</strong> ${response.health_impact}</p>
+                                <p><strong>Risk Level:</strong> ${response.risk_level}</p>
+                                <p><strong>Safer Alternatives:</strong> ${response.safer_alternatives.join(', ')}</p>
+                            `);
+                        } else if (response.status === 'ai_generated') {
+                            $('#output').html(`
+                                <h2>AI-Generated Results for: ${response.product_name}</h2>
+                                <p>${response.ai_response}</p>
+                            `);
+                        } else if (response.status === 'error') {
+                            $('#output').html(`<p>Error: ${response.message}</p>`);
+                        } else {
+                            $('#output').html('<p>Product not found and no AI data available.</p>');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        $('#output').html('<p>An error occurred. Please try again later.</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

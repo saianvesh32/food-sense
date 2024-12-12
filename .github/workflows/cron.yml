@@ -1,0 +1,19 @@
+name: Prediction Cron Job
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"  # 5 min
+  workflow_dispatch:
+
+jobs:
+  call-prediction-api:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Call Prediction API
+        run: |
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
+            https://vjh.udaysagar.in/cron/predict
+        continue-on-error: true

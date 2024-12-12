@@ -1,0 +1,10 @@
+backend/data/**
+backend/training/requirements.txt
+backend/training/.ipynb_checkpoints/**
+backend/models/potato/1/potato.keras
+backend/models/pepper/1/pepper.keras
+backend/models/tomato/1/tomato.keras
+
+# Environment variables
+.env
+.env.*

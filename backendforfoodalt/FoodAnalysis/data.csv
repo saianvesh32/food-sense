@@ -1,0 +1,92 @@
+Product Name,Ingredients,Health Impact,Safer Alternative,Risk Level
+Potato Chips,"Palm Oil, Salt, Flavor Enhancers","Increases cholesterol, risk of heart disease","Baked Vegetable Chips (Olive Oil)",High
+Soft Drink,"Caffeine, High Fructose Corn Syrup","Causes obesity, diabetes, and anxiety","Coconut Water",High
+Instant Noodles,"MSG, Sodium, Palm Oil","Leads to hypertension, and digestive issues","Whole Wheat Noodles",Moderate
+Biscuits,"Sugar, Refined Flour, Palm Oil","Contributes to diabetes and weight gain","Oats Biscuits",Moderate
+Packaged Juice,"Added Sugar, Artificial Flavors","Causes obesity and spikes blood sugar","Freshly Squeezed Fruit Juice",Moderate
+Processed Meat,"Nitrates, Sodium","Linked to cancer and cardiovascular issues","Grilled Chicken or Tofu",High
+Breakfast Cereal,"Sugar, Artificial Colors","Increases risk of diabetes and hyperactivity","Oatmeal with Fresh Fruits",Moderate
+Packaged Soup,"Sodium, Preservatives","Causes high blood pressure","Freshly Prepared Vegetable Soup",Moderate
+Energy Drink,"Caffeine, Sugar","Causes heart palpitations and insomnia","Herbal Tea",High
+Ice Cream,"Sugar, Artificial Flavors","Contributes to weight gain and diabetes","Frozen Yogurt",Moderate
+White Bread,"Refined Flour, Sugar","Leads to blood sugar spikes and low nutrition","Whole Grain Bread",Low
+Chips (Cheese Flavor),"Trans Fats, Artificial Flavors","Raises bad cholesterol levels","Popcorn (Air-Popped)",High
+Chocolates (Low-Cost),"Artificial Sweeteners, Palm Oil","Causes weight gain and contains harmful additives","Dark Chocolate (70% Cocoa)",Moderate
+Canned Fruit,"Sugar Syrup, Preservatives","Leads to obesity and lacks fiber","Fresh Fruit",Low
+Fried Snacks (Pakora),"Refined Oil, Salt","Increases cholesterol and weight","Baked or Air-Fried Snacks",Moderate
+Margarine,"Trans Fats","Contributes to heart disease and inflammation","Butter (Grass-Fed)",High
+Pickles,"Sodium, Preservatives","Causes high blood pressure","Homemade Pickles (Low Sodium)",Low
+Fried Snacks,"Palm Oil, Salt, Artificial Flavors","Increases cholesterol, leads to heart issues","Air-popped Popcorn",High
+Egg Puff,"Refined Flour, Butter, Preservatives","Causes weight gain and high cholesterol","Baked Vegetable Puff (Whole Wheat)",High
+French Fries,"Potatoes, Salt, Hydrogenated Oils","Raises cholesterol and leads to obesity","Baked Sweet Potato Fries",High
+Hot Dog,"Processed Meat, Nitrates, Artificial Flavors","Linked to cancer and heart disease","Veggie Dog or Grilled Chicken Sausage",High
+Donuts,"Sugar, Refined Flour, Trans Fats","Leads to blood sugar spikes and obesity","Baked Donuts (Whole Grain)",High
+Cupcakes,"Sugar, Butter, Artificial Colors","Causes weight gain and hyperactivity","Muffins (Low Sugar, Whole Grain)",Moderate
+Fried Chicken,"Batter (Refined Flour), Oil, Salt","Leads to high cholesterol and heart disease","Baked or Grilled Chicken",High
+Milkshake,"Full Fat Milk, Sugar, Artificial Flavors","Leads to weight gain and blood sugar spikes","Smoothie (Low Sugar, Fresh Fruits)",Moderate
+Salad,"Fresh Vegetables, Olive Oil, Lemon","Promotes weight loss and is nutrient-rich","Safe to Use",Low
+Roasted Nuts,"Nuts, Spices, Olive Oil","Rich in healthy fats and promotes heart health","Safe to Use",Low
+Grilled Fish,"Fish, Lemon, Spices","High in Omega-3 and good for heart health","Safe to Use",Low
+Boiled Eggs,"Eggs, Salt","Rich in protein and promotes muscle health","Safe to Use",Low
+Steamed Vegetables,"Broccoli, Carrots, Cauliflower","Boosts digestion and is nutrient-rich","Safe to Use",Low
+Fruit Salad,"Fresh Fruits, Lemon Juice","Boosts immunity and is rich in fiber","Safe to Use",Low
+Avocado Toast,"Avocado, Whole Grain Bread","Rich in healthy fats and supports heart health","Safe to Use",Low
+Greek Yogurt,"Low-Fat Milk, Probiotics","Good for gut health and high in protein","Safe to Use",Low
+Green Tea,"Tea Leaves, Hot Water","Promotes metabolism and reduces stress","Safe to Use",Low
+Quinoa Bowl,"Quinoa, Vegetables, Olive Oil","Rich in protein and fiber, supports digestion","Safe to Use",Low
+Smoothie Bowl,"Fresh Fruits, Almond Milk, Chia Seeds","Boosts energy and immunity","Safe to Use",Low
+Homemade Soups,"Fresh Vegetables, Low Salt","Low in calories and promotes heart health","Safe to Use",Low
+Lentil Soup,"Lentils, Vegetables, Spices","High in protein and promotes gut health","Safe to Use",Low
+Vegetable Stir Fry,"Vegetables, Olive Oil, Soy Sauce","Rich in vitamins and minerals","Safe to Use",Low
+Grilled Chicken,"Chicken, Olive Oil, Spices","High in protein and good for muscle health","Safe to Use",Low
+Baked Sweet Potatoes,"Sweet Potatoes, Olive Oil, Spices","Rich in vitamins and fiber","Safe to Use",Low
+Hummus,"Chickpeas, Olive Oil, Garlic","Promotes digestion and is nutrient-rich","Safe to Use",Low
+Dark Chocolate (70% Cocoa),"Cocoa, Low Sugar","Rich in antioxidants and boosts mood","Safe to Use",Low
+Rice and Beans,"Rice, Black Beans, Spices","Complete protein and good for digestion","Safe to Use",Low
+Whole Grain Pancakes,"Whole Grain Flour, Milk, Eggs","Provides energy and is nutrient-rich","Safe to Use",Low
+Vegetable Sandwich,"Whole Grain Bread, Fresh Vegetables","Low in calories and rich in fiber","Safe to Use",Low
+Herbal Tea,"Herbs, Hot Water","Promotes relaxation and boosts immunity","Safe to Use",Low
+Boiled Corn,"Corn, Salt, Butter (Optional)","Rich in fiber and boosts digestion","Safe to Use",Low
+Baked Salmon,"Salmon, Olive Oil, Lemon","Rich in Omega-3 and promotes heart health","Safe to Use",Low
+Trail Mix,"Nuts, Seeds, Dried Fruits","Boosts energy and is nutrient-dense","Safe to Use",Low
+Whole Wheat Pasta,"Whole Wheat, Vegetables, Olive Oil","Promotes digestion and is nutrient-rich","Safe to Use",Low
+Fresh Vegetable Wrap,"Whole Grain Tortilla, Fresh Vegetables","Low in calories and boosts energy","Safe to Use",Low
+Chia Pudding,"Chia Seeds, Almond Milk, Honey","High in fiber and promotes weight loss","Safe to Use",Low
+Nachos,"Refined Flour, Artificial Cheese Sauce","Leads to high sodium and cholesterol","Whole Grain Nachos with Salsa",High
+Corn Dog,"Processed Meat, Batter (Refined Flour), High Fat Oil","Causes high cholesterol and weight gain","Grilled Veggie Skewers",High
+Ketchup,"Added Sugar, Preservatives","Leads to weight gain and high sodium","Homemade Tomato Sauce (Low Sugar)",Low
+Chicken Nuggets,"Processed Chicken, Batter, Preservatives","Leads to weight gain and poor nutrition","Homemade Chicken Nuggets (Baked)",High
+Pasta (Instant),"Refined Flour, Artificial Flavoring","Causes blood sugar spikes and weight gain","Whole Wheat Pasta",Moderate
+Pav Bhaji,"Butter, Refined Flour Bread","Increases cholesterol and weight","Use Whole Grain Bread with Veggie Toppings",High
+Candy,"Sugar, Artificial Colors, High Fructose Corn Syrup","Leads to cavities and obesity","Dried Fruits (No Sugar Added)",Moderate
+Puffed Rice Snacks,"Sodium, Artificial Flavors","Leads to high blood pressure","Homemade Puffed Rice with Veggies",Low
+Popcorn (Butter),"Butter, Salt, Hydrogenated Oils","Leads to cholesterol buildup","Air-Popped Popcorn (No Butter)",Moderate
+Fried Fish,"Oil, Salt, Batter (Refined Flour)","Increases cholesterol and heart risk","Grilled Fish with Spices",High
+Salty Crackers,"Refined Flour, High Salt","Causes blood pressure spikes","Whole Grain Crackers (Low Sodium)",Moderate
+Tacos,"Refined Flour Tortilla, Cheese, Processed Toppings","Leads to high sodium and weight gain","Corn Tortilla with Fresh Veggies",Moderate
+Bhel Puri,"Fried Puffed Rice, Tamarind Sauce","High sodium and sugar content","Use Baked Puffed Rice with Fresh Veggies",Moderate
+Spring Rolls,"Refined Flour, Oil, Preservatives","Leads to high cholesterol and weight gain","Baked Spring Rolls",Moderate
+Samosa,"Refined Flour, Potatoes, Oil","Causes weight gain and high cholesterol","Baked Samosa (Whole Wheat)",High
+Falooda,"Sugar, Vermicelli, Artificial Syrups","Leads to high sugar levels and weight gain","Fruit-Based Dessert (No Added Sugar)",Moderate
+Brownies,"Sugar, Butter, Refined Flour","Contributes to weight gain and diabetes","Black Bean Brownies (Low Sugar)",High
+Chicken Biryani,"Refined Oil, Ghee, White Rice","Leads to obesity and cholesterol","Use Brown Rice with Lean Protein",Moderate
+Processed Cheese,"Salt, Preservatives, Artificial Additives","Leads to high sodium and cholesterol","Low-Fat Cottage Cheese",Moderate
+Fried Dumplings,"Refined Flour, Oil, Fillings","Leads to cholesterol buildup","Steamed Dumplings (Whole Wheat)",High
+Sweetened Yogurt,"Added Sugar, Artificial Flavors","Leads to high sugar levels","Unsweetened Greek Yogurt with Fresh Fruits",Moderate
+Processed Butter,"Trans Fats, Salt","Contributes to heart disease","Grass-Fed Butter",High
+Fried Tofu,"Oil, Salt, Soy Sauce","Leads to weight gain","Grilled Tofu with Spices",Moderate
+Rice Cakes,"Refined Rice, Sodium","Leads to blood sugar spikes","Whole Grain Rice Cakes (No Salt)",Low
+Hot Chocolate,"Sugar, Artificial Cocoa Mix","Leads to weight gain and blood sugar spikes","Homemade Hot Chocolate (Low Sugar)",Moderate
+Falafel (Fried),"Oil, Salt, Chickpeas","Increases cholesterol and weight","Baked Falafel",Moderate
+Pizza Rolls,"Refined Flour, Cheese, Processed Fillings","Leads to high sodium and cholesterol","Whole Wheat Pizza Rolls (Veggie Fillings)",High
+Pot Pies,"Refined Flour, Butter, Processed Fillings","Leads to high cholesterol and weight gain","Homemade Pot Pies (Whole Wheat)",High
+Mozzarella Sticks,"Processed Cheese, Oil, Batter","Leads to weight gain and cholesterol buildup","Baked Mozzarella Sticks (Whole Wheat)",High
+Sweetened Cereals,"Added Sugar, Artificial Flavors","Leads to obesity and cavities","Unsweetened Whole Grain Cereal",Moderate
+Butter Cookies,"Butter, Sugar, Refined Flour","Leads to weight gain and cholesterol","Oatmeal Cookies (Low Sugar)",High
+Fish Sticks,"Processed Fish, Oil, Batter","Leads to high sodium and cholesterol","Homemade Fish Sticks (Baked)",Moderate
+Cola-Based Drinks,"Caffeine, High Fructose Corn Syrup","Leads to diabetes and obesity","Infused Water with Fresh Fruits",High
+Hot Wings,"Oil, Salt, Spicy Sauces","Leads to cholesterol buildup","Grilled Chicken Wings (Low Sodium)",High
+Processed Pancake Mix,"Refined Flour, Sugar, Preservatives","Leads to blood sugar spikes","Homemade Pancakes (Whole Grain)",Moderate
+Tuna Sandwich (Processed),"Refined Bread, Mayonnaise","Leads to weight gain and high sodium","Whole Grain Bread with Fresh Tuna",Moderate
+Processed Peanut Butter,"Added Sugar, Hydrogenated Oils","Leads to weight gain and heart issues","Natural Peanut Butter (No Additives)",Low
+Frozen Pizza,"Refined Flour, Cheese, Preservatives","Leads to high sodium and weight gain","Whole Wheat Base with Veggie Toppings",High
